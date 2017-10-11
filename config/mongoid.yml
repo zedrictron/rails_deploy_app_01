@@ -1,0 +1,12 @@
+development:
+  clients:
+    default:
+      database: app_deploy01_development
+      hosts:
+        - localhost:27017
+staging:
+  clients:
+    default:
+      database: app_deploy01_staging
+      hosts:
+        - localhost:27017
